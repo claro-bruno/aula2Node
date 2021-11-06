@@ -1,39 +1,45 @@
-import { Category } from '../../model/Category';
+import { Category } from '../../entities/Category';
 import { ICategoriesRepository, ICreateCategoryDTO } from '../ICategoriesRepository';
+import { getRepository, Repository } from 'typeorm';
 
 class CategoriesRepository implements ICategoriesRepository {
-  private categories: Category[];
 
-  private static INSTANCE: CategoriesRepository;
+  private repository: Repository<Category>;
 
-  private constructor() {
-    this.categories = [];
+  // private static INSTANCE: CategoriesRepository;
+
+  // private constructor() {
+  //   this.repository = getRepository(Category);
+  // };
+
+  constructor() {
+    this.repository = getRepository(Category);
   };
 
-  public static getInstance(): CategoriesRepository {
-    if(!CategoriesRepository.INSTANCE) {
-      CategoriesRepository.INSTANCE = new CategoriesRepository();
-    }
-    return CategoriesRepository.INSTANCE;
-  };
+  // public static getInstance(): CategoriesRepository {
+  //   if(!CategoriesRepository.INSTANCE) {
+  //     CategoriesRepository.INSTANCE = new CategoriesRepository();
+  //   }
+  //   return CategoriesRepository.INSTANCE;
+  // };
 
-  create({ name, description }: ICreateCategoryDTO): void {
-    const category: Category = new Category();
-
-    Object.assign(category,{
+  async create({ name, description }: ICreateCategoryDTO): Promise<void> {
+    const category = this.repository.create({
+      description, 
       name,
-      description,
-      created_at: new Date(),
     });
-    this.categories.push(category);
+
+    await this.repository.save(category);
+    
   }
 
-  list(): Category[] {
-    return this.categories;
+  async list(): Promise<Category[]> {
+    const categories = await this.repository.find();
+    return categories;
   }
 
-  findbyName(name: string): Category {
-    const category = this.categories.find(category => category.name === name);
+  async findbyName(name: string): Promise<Category> {
+    const category = await this.repository.findOne({ name })
     return category;
   }
 }

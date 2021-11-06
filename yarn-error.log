@@ -1,8 +1,8 @@
 Arguments: 
-  /home/brunochib/.nvm/versions/node/v17.0.0/bin/node /home/brunochib/.yarn/bin/yarn.js add @types/typeorm
+  /home/brunochib/.nvm/versions/node/v17.0.0/bin/node /home/brunochib/.yarn/bin/yarn.js add tsrynge
 
 PATH: 
-  /home/brunochib/.yarn/bin:/home/brunochib/.config/yarn/global/node_modules/.bin:/home/brunochib/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/bin:/home/brunochib/.nvm/versions/node/v17.0.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Python38/Scripts/:/mnt/c/Python38/:/mnt/c/Python27/:/mnt/c/Python27/Scripts:/mnt/c/Program Files (x86)/Razer Chroma SDK/bin:/mnt/c/Program Files/Razer Chroma SDK/bin:/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin:/mnt/c/Program Files/Razer/ChromaBroadcast/bin:/mnt/c/Program Files/Microsoft MPI/Bin/:/mnt/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn/:/mnt/c/Users/Littl/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Littl/.dotnet/tools:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/wamp64/bin/php/php7.3.1:/mnt/c/ProgramData/ComposerSetup/bin:/mnt/c/Program Files/Symfony:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/VDownloader:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/nodejs/:/mnt/c/MinGW/bin:/mnt/c/Go/bin:/mnt/c/ProgramData/UNIVALI/Portugol Studio:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Users/Littl/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Littl/AppData/Roaming/Composer/vendor/bin:/mnt/c/Users/Littl/AppData/Roaming/npm:/mnt/c/Users/Littl/go/bin:/mnt/c/Users/Littl/AppData/Local/GitHubDesktop/bin:/mnt/c/Program Files/JetBrains/IntelliJ IDEA Educational Edition 2020.3.4/bin:/mnt/c/Program Files/JetBrains/IntelliJ IDEA 2020.3.3/bin:/mnt/c/Users/Littl/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Littl/AppData/Local/Programs/Microsoft VS Code Insiders/bin:/mnt/c/Users/Littl/.dotnet/tools
+  /home/brunochib/.yarn/bin:/home/brunochib/.config/yarn/global/node_modules/.bin:/home/brunochib/.nvm/versions/node/v17.0.0/bin:/home/brunochib/.vscode-server/bin/6cba118ac49a1b88332f312a8f67186f7f3c1643/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Python38/Scripts/:/mnt/c/Python38/:/mnt/c/Python27/:/mnt/c/Python27/Scripts:/mnt/c/Program Files (x86)/Razer Chroma SDK/bin:/mnt/c/Program Files/Razer Chroma SDK/bin:/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin:/mnt/c/Program Files/Razer/ChromaBroadcast/bin:/mnt/c/Program Files/Microsoft MPI/Bin/:/mnt/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn/:/mnt/c/Users/Littl/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Littl/.dotnet/tools:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/wamp64/bin/php/php7.3.1:/mnt/c/ProgramData/ComposerSetup/bin:/mnt/c/Program Files/Symfony:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/VDownloader:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/nodejs/:/mnt/c/MinGW/bin:/mnt/c/Go/bin:/mnt/c/ProgramData/UNIVALI/Portugol Studio:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Users/Littl/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Littl/AppData/Roaming/Composer/vendor/bin:/mnt/c/Users/Littl/AppData/Roaming/npm:/mnt/c/Users/Littl/go/bin:/mnt/c/Users/Littl/AppData/Local/GitHubDesktop/bin:/mnt/c/Program Files/JetBrains/IntelliJ IDEA Educational Edition 2020.3.4/bin:/mnt/c/Program Files/JetBrains/IntelliJ IDEA 2020.3.3/bin:/mnt/c/Users/Littl/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Littl/AppData/Local/Programs/Microsoft VS Code Insiders/bin:/mnt/c/Users/Littl/.dotnet/tools
 
 Yarn version: 
   1.22.15
@@ -14,7 +14,7 @@ Platform:
   linux x64
 
 Trace: 
-  Error: https://registry.yarnpkg.com/@types%2ftypeorm: Not found
+  Error: https://registry.yarnpkg.com/tsrynge: Not found
       at Request.params.callback [as _callback] (/home/brunochib/.yarn/lib/cli.js:67031:18)
       at Request.self.callback (/home/brunochib/.yarn/lib/cli.js:140885:22)
       at Request.emit (node:events:390:28)
@@ -34,6 +34,8 @@ npm manifest:
     "license": "MIT",
     "dependencies": {
       "@types/express": "^4.17.13",
+      "@types/pg": "^8.6.1",
+      "@types/reflect-metadata": "^0.1.0",
       "csv-parse": "^4.16.3",
       "express": "^4.17.1",
       "multer": "^1.4.3",
@@ -44,7 +46,8 @@ npm manifest:
       "uuid": "^8.3.2"
     },
     "scripts": {
-      "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules --respawn src/server.ts"
+      "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules --respawn src/server.ts",
+      "typeorm": "ts-node-dev ./node_modules/typeorm/cli"
     },
     "devDependencies": {
       "@types/multer": "^1.4.7",
@@ -119,6 +122,15 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/@types/node/-/node-16.11.6.tgz#6bef7a2a0ad684cf6e90fcfe31cecabd9ce0a3ae"
     integrity sha512-ua7PgUoeQFjmWPcoo9khiPum3Pd60k4/2ZGXt18sm2Slk0W0xZTqt5Y0Ny1NyBiN1EVQ/+FaF9NcY4Qe6rwk5w==
   
+  "@types/pg@^8.6.1":
+    version "8.6.1"
+    resolved "https://registry.yarnpkg.com/@types/pg/-/pg-8.6.1.tgz#099450b8dc977e8197a44f5229cedef95c8747f9"
+    integrity sha512-1Kc4oAGzAl7uqUStZCDvaLFqZrW9qWSjXOmBfdgyBP5La7Us6Mg4GBvRlSoaZMhQF/zSj1C8CtKMBkoiT8eL8w==
+    dependencies:
+      "@types/node" "*"
+      pg-protocol "*"
+      pg-types "^2.2.0"
+  
   "@types/qs@*":
     version "6.9.7"
     resolved "https://registry.yarnpkg.com/@types/qs/-/qs-6.9.7.tgz#63bb7d067db107cc1e457c303bc25d511febf6cb"
@@ -128,6 +140,13 @@ Lockfile:
     version "1.2.4"
     resolved "https://registry.yarnpkg.com/@types/range-parser/-/range-parser-1.2.4.tgz#cd667bcfdd025213aafb7ca5915a932590acdcdc"
     integrity sha512-EEhsLsD6UsDM1yFhAvy0Cjr6VwmpMWqFBCb9w07wVugF7w9nfajxLuVmngTIpgS6svCnm6Vaw+MZhoDCKnOfsw==
+  
+  "@types/reflect-metadata@^0.1.0":
+    version "0.1.0"
+    resolved "https://registry.yarnpkg.com/@types/reflect-metadata/-/reflect-metadata-0.1.0.tgz#592805bdf6d63dd7229773218afeba37ac2eab16"
+    integrity sha512-bXltFLY3qhzCnVYP5iUpeSICagQ8rc9K2liS+8M0lBcz54BHs3O6W5UvqespVSuebo1BXLi+/y9ioELAW9SC2A==
+    dependencies:
+      reflect-metadata "*"
   
   "@types/serve-static@*":
     version "1.13.10"
@@ -947,12 +966,12 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/pg-pool/-/pg-pool-3.4.1.tgz#0e71ce2c67b442a5e862a9c182172c37eda71e9c"
     integrity sha512-TVHxR/gf3MeJRvchgNHxsYsTCHQ+4wm3VIHSS19z8NC0+gioEhq1okDY1sm/TYbfoP6JLFx01s0ShvZ3puP/iQ==
   
-  pg-protocol@^1.5.0:
+  pg-protocol@*, pg-protocol@^1.5.0:
     version "1.5.0"
     resolved "https://registry.yarnpkg.com/pg-protocol/-/pg-protocol-1.5.0.tgz#b5dd452257314565e2d54ab3c132adc46565a6a0"
     integrity sha512-muRttij7H8TqRNu/DxrAJQITO4Ac7RmX3Klyr/9mJEOBeIpgnF8f9jAfRz5d3XwQZl5qBjF9gLsUtMPJE0vezQ==
   
-  pg-types@^2.1.0:
+  pg-types@^2.1.0, pg-types@^2.2.0:
     version "2.2.0"
     resolved "https://registry.yarnpkg.com/pg-types/-/pg-types-2.2.0.tgz#2d0250d636454f7cfa3b6ae0382fdfa8063254a3"
     integrity sha512-qTAAlrEsl8s4OiEQY69wDvcMIdQN6wdz5ojQiOy6YRMuynxenON0O5oCpJI6lshc6scgAY8qvJ2On/p+CXY0GA==
@@ -1082,7 +1101,7 @@ Lockfile:
     dependencies:
       picomatch "^2.2.1"
   
-  reflect-metadata@^0.1.13:
+  reflect-metadata@*, reflect-metadata@^0.1.13:
     version "0.1.13"
     resolved "https://registry.yarnpkg.com/reflect-metadata/-/reflect-metadata-0.1.13.tgz#67ae3ca57c972a2aa1642b10fe363fe32d49dc08"
     integrity sha512-Ts1Y/anZELhSsjMcU605fU9RE4Oi3p5ORujwbIKXfWa+0Zxs510Qrmrce5/Jowq3cHSZSJqBjypxmHarc+vEWg==
