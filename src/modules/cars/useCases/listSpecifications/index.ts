@@ -1,10 +1,10 @@
-import { SpecificationsRepository } from "../../repositories/implementations/SpecificationsRepository";
-import { ListSpecificationsController } from "./ListSpecificationsController";
-import { ListSpecificationsUseCase } from "./ListSpecificationsUseCase";
+// import { SpecificationsRepository } from "../../repositories/implementations/SpecificationsRepository";
+// import { ListSpecificationsController } from "./ListSpecificationsController";
+// import { ListSpecificationsUseCase } from "./ListSpecificationsUseCase";
 
-// const specificationsRepository = SpecificationsRepository.getInstance();
-const specificationsRepository = null;
-const listSpecificatinsUseCase = new ListSpecificationsUseCase(specificationsRepository);
-const listSpecificationsController = new ListSpecificationsController(listSpecificatinsUseCase);
+// // const specificationsRepository = SpecificationsRepository.getInstance();
+// const specificationsRepository = null;
+// const listSpecificatinsUseCase = new ListSpecificationsUseCase(specificationsRepository);
+// const listSpecificationsController = new ListSpecificationsController(listSpecificatinsUseCase);
 
-export { listSpecificationsController, listSpecificatinsUseCase  };
+// export { listSpecificationsController, listSpecificatinsUseCase  };

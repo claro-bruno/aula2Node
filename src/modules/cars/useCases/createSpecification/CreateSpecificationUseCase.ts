@@ -1,20 +1,22 @@
-import { SpecificationsRepository } from "../../repositories/implementations/SpecificationsRepository";
-import { ISpecificationsRepository, ICreateSpecificationDTO } from "../../repositories/ISpecificationsRepository";
+import { inject, injectable } from "tsyringe";
+import { AppError } from "../../../../errors/AppError";
+import { ISpecificationsRepository } from "../../repositories/ISpecificationsRepository";
 
 interface IRequest {
   name: string,
   description: string,
 }
 
+@injectable()
 class CreateSpecificationUseCase {
-  constructor( private specificationsRepository: ISpecificationsRepository ) {};
+  constructor( 
+    @inject('SpecificationsRepository')
+    private specificationsRepository: ISpecificationsRepository ) {};
 
-  execute({ name, description }: IRequest): void {
-    // const categoryRepository = new CategoryRepositoy();
-    const specificationAlreadExists = this.specificationsRepository.findbyName(name);
+  async execute({ name, description }: IRequest): Promise<void> {
+    const specificationAlreadExists = await this.specificationsRepository.findbyName(name);
     if(specificationAlreadExists) {
-      throw new Error ('Specification Alread Exists!')
-      //return response.status(400).json({ error: 'Category Alread Exists!'});
+      throw new AppError ('Specification Alread Exists!')
     }
     this.specificationsRepository.create({ name, description })
   }
